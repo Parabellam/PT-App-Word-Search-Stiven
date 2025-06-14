@@ -1,0 +1,40 @@
+# Node modules
+FRONT/node_modules/
+FRONT/dist/
+
+# Python
+BACK/__pycache__/
+BACK/*.pyc
+BACK/*.pyo
+BACK/*.pyd
+BACK/.Python
+BACK/env/
+BACK/venv/
+BACK/.venv/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+Documentación/
+docs/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore 
