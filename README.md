@@ -61,27 +61,26 @@ docker run -d -p 80:80 -p 5000:5000 --name buscador-sopa-letras buscador-sopa-le
 ## 📖 Documentación
 
 ### Guías de Usuario
-- **[Guía de Usuario](Documentación/guia-usuario.md)** - Manual completo para usuarios finales
-- **[Guía de Despliegue](Documentación/guia-despliegue.md)** - Instrucciones detalladas de despliegue
+- **[Guía de Usuario](Documentación/uat/guia-usuario.docx)** - Manual completo para usuarios finales
+- **[Guía de Despliegue](Documentación/dev/guia-despliegue.md)** - Instrucciones detalladas de despliegue
 
 ### Documentación Técnica
-- **[Tecnologías Empleadas](Documentación/tecnologias-empleadas.md)** - Stack tecnológico completo
-- **[Recursos Especiales](Documentación/recursos-especiales.md)** - Librerías y herramientas utilizadas
+- **[Tecnologías Empleadas](Documentación/dev/tecnologias-empleadas.md)** - Stack tecnológico completo
+- **[Recursos Especiales](Documentación/dev/recursos-especiales.md)** - Librerías y herramientas utilizadas
 
 ## 🎯 Funcionalidades
 
 ### Búsqueda de Palabras
 - **8 direcciones**: Horizontal, vertical y diagonal
 - **Algoritmo optimizado**: Búsqueda eficiente en matrices grandes
-- **Case-sensitive**: Búsqueda precisa con mayúsculas/minúsculas
-- **Validación de límites**: Respeta los límites de la matriz
+- **No case-sensitive**: Búsqueda mayúsculas/minúsculas por igual
+- **Sin límites**: Matríz cuadrada sin límites
 
 ### Interfaz de Usuario
 - **Diseño moderno**: HeroUI + Tailwind CSS
 - **Responsive**: Adaptable a cualquier dispositivo
 - **Tema dual**: Claro y oscuro
 - **Notificaciones**: Sistema de feedback visual
-- **Validación en tiempo real**: Feedback inmediato al usuario
 
 ### Backend API
 - **RESTful**: Endpoints bien definidos
@@ -295,24 +294,12 @@ volumes:
   - ./logs:/var/log/nginx
 ```
 
-## 🤝 Contribución
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
 ## 📞 Soporte
 
 Para soporte técnico o reportar problemas:
 
-- **Email**: [tu-email@ejemplo.com]
-- **Issues**: [GitHub Issues](URL_DEL_REPOSITORIO/issues)
+- **Email**: [stiven.ruiz.991031@gmail.com]
+- **Issues**: [GitHub Issues](https://github.com/Parabellam/PT-App-Word-Search-Stiven/issues)
 - **Documentación**: [Documentación del proyecto](Documentación/)
 
 ## 🙏 Agradecimientos
@@ -327,4 +314,4 @@ Para soporte técnico o reportar problemas:
 
 **¡Disfruta buscando palabras en sopas de letras! 🔍✨**
 
-*© 2024 Buscador de Sopa de Letras. Todos los derechos reservados.* 
+*© 2025 Buscador de Sopa de Letras. Todos los derechos reservados.* 
